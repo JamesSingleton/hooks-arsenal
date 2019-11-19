@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to hooks-arsenal 👋</h1>
+<h1 align="center">Welcome to Hooks Arsenal 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/JamesSingleton/hooks-arsenal#readme" target="_blank">
@@ -23,12 +23,6 @@
 
 ```sh
 npm install --save hooks-arsenal
-```
-
-## Run tests
-
-```sh
-npm run test
 ```
 
 ## Author
