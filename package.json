@@ -31,7 +31,7 @@
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
     "babel-preset-amex": "3.2.0",
-    "eslint": "6.6.0",
+    "eslint": "6.7.0",
     "eslint-config-amex": "11.1.0",
     "husky": "3.1.0",
     "lint-staged": "9.4.3",
