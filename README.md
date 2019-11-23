@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Hooks Arsenal 👋</h1>
+<h1 align="center">Welcome to Hooks Arsenal 🎣</h1>
 <p>
   <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/JamesSingleton/hooks-arsenal">
   <a href="https://www.npmjs.com/package/hooks-arsenal">
