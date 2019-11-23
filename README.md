@@ -1,5 +1,4 @@
 <h1 align="center">Welcome to Hooks Arsenal 👋</h1>
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 <p>
   <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/JamesSingleton/hooks-arsenal">
   <a href="https://www.npmjs.com/package/hooks-arsenal">
@@ -10,6 +9,9 @@
   </a>
   <a href="https://github.com/JamesSingleton/hooks-arsenal/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/JamesSingleton/hooks-arsenal" />
+  </a>
+  <a href="#contributors">
+    <img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square" />
   </a>
 </p>
 
