@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "JamesSingleton",
+      "name": "James Singleton",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21000200?v=4",
+      "profile": "https://github.com/JamesSingleton",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "hooks-arsenal",
+  "projectOwner": "JamesSingleton",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
