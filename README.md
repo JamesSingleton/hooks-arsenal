@@ -1,18 +1,14 @@
 <h1 align="center">Welcome to Hooks Arsenal 👋</h1>
 <p>
-  <img alt="build status" src="https://circleci.com/gh/JamesSingleton/hooks-arsenal.svg?style=svg" />
-  <img alt="Version" src="https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/JamesSingleton/hooks-arsenal#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/JamesSingleton/hooks-arsenal">
+  <a href="https://www.npmjs.com/package/hooks-arsenal">
+    <img alt="npm" src="https://img.shields.io/npm/v/hooks-arsenal">
   </a>
-  <a href="https://github.com/JamesSingleton/hooks-arsenal/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  <a href="https://github.com/JamesSingleton/hooks-arsenal/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/JamesSingleton/hooks-arsenal">
   </a>
   <a href="https://github.com/JamesSingleton/hooks-arsenal/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/JamesSingleton/hooks-arsenal" />
-  </a>
-  <a href="https://twitter.com/Design__Pattern" target="_blank">
-    <img alt="Twitter: Design__Pattern" src="https://img.shields.io/twitter/follow/Design__Pattern.svg?style=social" />
   </a>
 </p>
 
