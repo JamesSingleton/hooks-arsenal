@@ -1,5 +1,6 @@
 <h1 align="center">Welcome to Hooks Arsenal 👋</h1>
 <p>
+  <img alt="build status" src="https://circleci.com/gh/JamesSingleton/hooks-arsenal.svg?style=svg" />
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/JamesSingleton/hooks-arsenal#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
