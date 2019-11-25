@@ -55,6 +55,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/JamesSingleton"><img src="https://avatars2.githubusercontent.com/u/21000200?v=4" width="100px;" alt="James Singleton"/><br /><sub><b>James Singleton</b></sub></a><br /><a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=JamesSingleton" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Francois-Esquire"><img src="" width="100px;" alt="Mike Tobia"/><br /><sub><b>Mike Tobia</b></sub></a><br /><a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=Francois-Esquire" title="Code">💻</a></td>
   </tr>
 </table>
 
