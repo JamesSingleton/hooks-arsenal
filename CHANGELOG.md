@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/JamesSingleton/hooks-arsenal/compare/v1.1.0...v1.2.0) (2019-11-25)
+
+
+### Features
+
+* **useGeolocation:** hook with api ([320ef60](https://github.com/JamesSingleton/hooks-arsenal/commit/320ef601bf65bbefbbb9d2d050b252e3b0171584))
+
 # [1.1.0](https://github.com/JamesSingleton/hooks-arsenal/compare/v1.0.0...v1.1.0) (2019-11-23)
 
 
