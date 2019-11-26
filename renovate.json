@@ -15,8 +15,6 @@
     "masterIssueApproval": true
   },
   "automerge": true,
-  "commitMessage": "{{semanticPrefix}}Update {{depName}} to {{newVersion}} 🌟",
-  "prTitle": "{{semanticPrefix}}{{#if isPin}}Pin{{else}}Update{{/if}} dependency {{depName}} to version {{newVersion}} 🌟",
   "major": {
     "automerge": false
   },
