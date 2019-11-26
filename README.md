@@ -1,19 +1,11 @@
-<h1 align="center">Welcome to Hooks Arsenal 🎣</h1>
-<p>
-  <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/JamesSingleton/hooks-arsenal">
-  <a href="https://www.npmjs.com/package/hooks-arsenal">
-    <img alt="npm" src="https://img.shields.io/npm/v/hooks-arsenal">
-  </a>
-  <a href="https://github.com/JamesSingleton/hooks-arsenal/issues">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/JamesSingleton/hooks-arsenal">
-  </a>
-  <a href="https://github.com/JamesSingleton/hooks-arsenal/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/JamesSingleton/hooks-arsenal" />
-  </a>
-  <a href="#contributors">
-    <img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square" />
-  </a>
-</p>
+# Hooks Arsenal 🎣
+
+![CircleCI](https://img.shields.io/circleci/build/github/JamesSingleton/hooks-arsenal/master?style=flat-square)
+![npm](https://img.shields.io/npm/v/hooks-arsenal?style=flat-square)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![GitHub issues](https://img.shields.io/github/issues/JamesSingleton/hooks-arsenal?style=flat-square)](https://github.com/JamesSingleton/hooks-arsenal/issues)
+[![GitHub license](https://img.shields.io/github/license/JamesSingleton/hooks-arsenal?style=flat-square)](https://github.com/JamesSingleton/hooks-arsenal/blob/master/LICENSE)
+![npm bundle size](https://img.shields.io/bundlephobia/min/hooks-arsenal?style=flat-square)
 
 > An arsenal of React Hooks... aka, a React Hooks library
 
