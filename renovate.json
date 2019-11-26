@@ -1,5 +1,37 @@
 {
   "extends": [
-    "config:base"
-  ]
+    "config:base",
+    ":rebaseStalePrs",
+    ":automergeMinor",
+    ":label(ready)",
+    "group:linters",
+    ":masterIssue",
+    ":assignee(JamesSingleton)"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": "at any time",
+    "stabilityDays": 0,
+    "masterIssueApproval": true
+  },
+  "automerge": true,
+  "commitMessage": "{{semanticPrefix}}Update {{depName}} to {{newVersion}} 🌟",
+  "prTitle": "{{semanticPrefix}}{{#if isPin}}Pin{{else}}Update{{/if}} dependency {{depName}} to version {{newVersion}} 🌟",
+  "major": {
+    "automerge": false
+  },
+  "minor": {
+    "automerge": false
+  },
+  "stabilityDays": 3,
+  "prCreation": "not-pending",
+  "prBodyDefinitions": {
+    "Sourcegraph": "[![code search for \"{{{depName}}}\"](https://sourcegraph.com/search/badge?q=repo:%5Egithub%5C.com/{{{repository}}}%24+case:yes+-file:package%28-lock%29%3F%5C.json+{{{depName}}}&label=matches)](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/{{{repository}}}%24+case:yes+-file:package%28-lock%29%3F%5C.json+{{{depName}}})"
+  },
+  "prBodyColumns": ["Package", "Update", "Type", "Change", "Sourcegraph"],
+  "semanticCommitScope": "deps",
+  "packageRules": [{
+    "packagePatterns": "^eslint",
+    "groupName": "eslint"
+  }]
 }
