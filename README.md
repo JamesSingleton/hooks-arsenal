@@ -2,7 +2,7 @@
 
 ![CircleCI](https://img.shields.io/circleci/build/github/JamesSingleton/hooks-arsenal/master?style=flat-square)
 ![npm](https://img.shields.io/npm/v/hooks-arsenal?style=flat-square)
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 [![GitHub issues](https://img.shields.io/github/issues/JamesSingleton/hooks-arsenal?style=flat-square)](https://github.com/JamesSingleton/hooks-arsenal/issues)
 [![GitHub license](https://img.shields.io/github/license/JamesSingleton/hooks-arsenal?style=flat-square)](https://github.com/JamesSingleton/hooks-arsenal/blob/master/LICENSE)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/hooks-arsenal?style=flat-square)
