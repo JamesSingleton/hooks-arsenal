@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/JamesSingleton/hooks-arsenal/compare/v1.2.0...v1.3.0) (2019-11-27)
+
+
+### Features
+
+* **hooks:** Add useWindowDimensions hook ([94c019e](https://github.com/JamesSingleton/hooks-arsenal/commit/94c019eb4f0eaacf53218ec906657dc95546a35b))
+
 # [1.2.0](https://github.com/JamesSingleton/hooks-arsenal/compare/v1.1.0...v1.2.0) (2019-11-25)
 
 
