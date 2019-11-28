@@ -1,7 +1,6 @@
 import { renderHook, act } from '@testing-library/react-hooks';
 import useWindowDimensions from '../../src/hooks/useWindowDimensions';
 
-// TODO: Add Tests for other Hooks
 describe('useWindowDimensions', () => {
   const resize = (width, height) => {
     const resizeEvent = document.createEvent('Event');
