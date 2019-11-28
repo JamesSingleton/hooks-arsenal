@@ -1,0 +1,8 @@
+tests:
+  - __tests__/**/*
+
+hooks: 
+  - src/hooks/*
+
+actions:
+  - .github/workflows/*
