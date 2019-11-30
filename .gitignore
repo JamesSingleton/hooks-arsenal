@@ -8,6 +8,7 @@ lib
 
 # test
 test-results
+coverage
 .jest-cache
 # the below are generated during the tests and cleaned up in between tests
 # included here in case clean up fails
