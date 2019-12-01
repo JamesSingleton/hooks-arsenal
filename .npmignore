@@ -8,3 +8,4 @@ commitlint.config.js
 renovate.json
 rollup.config.js
 .all-contributorsrc
+__tests__/*
