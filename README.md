@@ -37,7 +37,6 @@ Give a ⭐️ if this project helped you!
 Copyright © 2019 [James Singleton](https://github.com/JamesSingleton).<br />
 This project is [MIT](https://github.com/JamesSingleton/hooks-arsenal/blob/master/LICENSE) licensed.
 
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -46,7 +45,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/JamesSingleton"><img src="https://avatars2.githubusercontent.com/u/21000200?v=4" width="100px;" alt="James Singleton"/><br /><sub><b>James Singleton</b></sub></a><br /><a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=JamesSingleton" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/JamesSingleton"><img src="https://avatars2.githubusercontent.com/u/21000200?v=4" width="100px;" alt="James Singleton"/><br /><sub><b>James Singleton</b></sub></a><br /><a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=JamesSingleton" title="Code">💻</a> <a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=JamesSingleton" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://github.com/Francois-Esquire"><img src="https://avatars1.githubusercontent.com/u/12474067?s=400&v=4" width="100px;" alt="Mike Tobia"/><br /><sub><b>Mike Tobia</b></sub></a><br /><a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=Francois-Esquire" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/heythisispaul"><img src="https://avatars3.githubusercontent.com/u/25091801?v=4" width="100px;" alt="Paul Richard"/><br /><sub><b>Paul Richard</b></sub></a><br /><a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=heythisispaul" title="Code">💻</a> <a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=heythisispaul" title="Tests">⚠️</a></td>
   </tr>
