@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/JamesSingleton/hooks-arsenal/compare/v1.3.0...v1.4.0) (2019-12-01)
+
+
+### Features
+
+* **hooks:** Add useHandleForm ([d7510fa](https://github.com/JamesSingleton/hooks-arsenal/commit/d7510facdc1366b71601a8e6fe5c5f9a123a1f93))
+
 # [1.3.0](https://github.com/JamesSingleton/hooks-arsenal/compare/v1.2.0...v1.3.0) (2019-11-27)
 
 
