@@ -39,7 +39,7 @@
     "@semantic-release/changelog": "3.0.6",
     "@semantic-release/commit-analyzer": "6.3.3",
     "@semantic-release/git": "7.0.18",
-    "@semantic-release/npm": "5.3.4",
+    "@semantic-release/npm": "5.3.5",
     "@semantic-release/release-notes-generator": "7.3.5",
     "@testing-library/react-hooks": "3.2.1",
     "babel-preset-amex": "3.3.0",
