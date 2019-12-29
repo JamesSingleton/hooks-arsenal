@@ -1,6 +1,6 @@
 {
   "name": "hooks-arsenal",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "An arsenal of React Hooks... aka, a React Hooks library",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",

@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/JamesSingleton/hooks-arsenal/compare/v1.4.1...v1.4.2) (2019-12-29)
+
+
+### Bug Fixes
+
+* **useHandleForm:** Removed console log ([#45](https://github.com/JamesSingleton/hooks-arsenal/issues/45)) ([fae386c](https://github.com/JamesSingleton/hooks-arsenal/commit/fae386c3c43b2f96328af46c0f7acbf0f8d2ac64))
+
 ## [1.4.1](https://github.com/JamesSingleton/hooks-arsenal/compare/v1.4.0...v1.4.1) (2019-12-01)
 
 
