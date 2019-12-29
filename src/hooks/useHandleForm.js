@@ -26,10 +26,9 @@ const useFormSubmission = ({ submitFunction, initialValue = {} } = {}) => {
       setSubmitResult(result);
       return result;
     } catch (err) {
-      // eslint-disable-next-line no-console
-      console.error(err);
       setExperiencedError(true);
       setIsSubmitting(false);
+      setSubmitResult(err);
       return err;
     }
   };
