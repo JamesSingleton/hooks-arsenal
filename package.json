@@ -45,7 +45,7 @@
     "babel-preset-amex": "3.3.0",
     "eslint": "6.8.0",
     "eslint-config-amex": "11.1.0",
-    "eslint-plugin-jest": "23.2.0",
+    "eslint-plugin-jest": "23.3.0",
     "husky": "3.1.0",
     "jest": "24.9.0",
     "lint-staged": "9.5.0",
