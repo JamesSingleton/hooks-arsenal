@@ -37,9 +37,9 @@
     "@commitlint/cli": "8.3.4",
     "@commitlint/config-conventional": "8.3.4",
     "@semantic-release/changelog": "3.0.6",
-    "@semantic-release/commit-analyzer": "6.3.3",
-    "@semantic-release/git": "7.0.18",
-    "@semantic-release/npm": "5.3.5",
+    "@semantic-release/commit-analyzer": "7.0.0",
+    "@semantic-release/git": "8.0.0",
+    "@semantic-release/npm": "6.0.0",
     "@semantic-release/release-notes-generator": "7.3.5",
     "@testing-library/react-hooks": "3.2.1",
     "babel-preset-amex": "3.3.0",
@@ -57,7 +57,7 @@
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-terser": "5.2.0",
-    "semantic-release": "15.14.0"
+    "semantic-release": "16.0.1"
   },
   "peerDependencies": {
     "react": "^16.8.0"
