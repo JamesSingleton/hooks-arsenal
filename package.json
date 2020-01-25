@@ -47,7 +47,7 @@
     "eslint-config-amex": "11.1.0",
     "eslint-plugin-jest": "23.6.0",
     "husky": "4.0.10",
-    "jest": "24.9.0",
+    "jest": "25.1.0",
     "lint-staged": "9.5.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
