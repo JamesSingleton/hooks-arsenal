@@ -10,7 +10,7 @@ const useFormSubmission = ({ submitFunction, initialValue = {} } = {}) => {
     const {
       name, value, checked, type,
     } = event.target;
-    const isCheckbox = (type === 'checkbox');
+    const isCheckbox = type === 'checkbox';
     const newFormData = { ...formValues, [name]: isCheckbox ? checked : value };
     setFormValues(newFormData);
   }, [formValues]);
