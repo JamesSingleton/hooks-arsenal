@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 <!--
-  Thanks for reporting an issue 😄  to `react-building-blocks`!
+  Thanks for reporting an issue 😄  to `hooks-arsenal`!
   Before you submit, please search open / closed issues before submitting, since someone else might 
   have asked the same thing before.
   -->
