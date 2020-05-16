@@ -6,14 +6,20 @@ const useFormSubmission = ({ submitFunction, initialValue = {} } = {}) => {
   const [experiencedError, setExperiencedError] = useState(false);
   const [submitResult, setSubmitResult] = useState(null);
 
-  const handleUpdate = useCallback((event) => {
-    const {
-      name, value, checked, type,
-    } = event.target;
-    const isCheckbox = type === 'checkbox';
-    const newFormData = { ...formValues, [name]: isCheckbox ? checked : value };
-    setFormValues(newFormData);
-  }, [formValues]);
+  const handleUpdate = useCallback(
+    (event) => {
+      const {
+        name, value, checked, type,
+      } = event.target;
+      const isCheckbox = type === 'checkbox';
+      const newFormData = {
+        ...formValues,
+        [name]: isCheckbox ? checked : value,
+      };
+      setFormValues(newFormData);
+    },
+    [formValues]
+  );
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -25,11 +31,11 @@ const useFormSubmission = ({ submitFunction, initialValue = {} } = {}) => {
       setIsSubmitting(false);
       setSubmitResult(result);
       return result;
-    } catch (err) {
+    } catch (error) {
       setExperiencedError(true);
       setIsSubmitting(false);
-      setSubmitResult(err);
-      return err;
+      setSubmitResult(error);
+      return error;
     }
   };
 
