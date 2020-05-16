@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const defaultPositionOptions = {
   enableHighAccuracy: true,
@@ -16,8 +16,7 @@ export default function useGeolocation(initialPosition = null) {
       setWatchID(null);
     }
   }
-
-  React.useEffect(() => () => clearWatch(), []);
+  useEffect(() => () => clearWatch(), []);
 
   return {
     clearWatch,
