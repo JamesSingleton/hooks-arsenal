@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/JamesSingleton/hooks-arsenal/compare/v1.4.2...v1.5.0) (2020-05-20)
+
+
+### Features
+
+* **hooks:** add useErrorBoundary hook ([#157](https://github.com/JamesSingleton/hooks-arsenal/issues/157)) ([fadf37a](https://github.com/JamesSingleton/hooks-arsenal/commit/fadf37aaa56287bbe436ad31b9f4be36a67e16ee))
+
 ## [1.4.2](https://github.com/JamesSingleton/hooks-arsenal/compare/v1.4.1...v1.4.2) (2019-12-29)
 
 
