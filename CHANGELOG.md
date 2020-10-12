@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/JamesSingleton/hooks-arsenal/compare/v1.5.0...v1.6.0) (2020-10-12)
+
+
+### Features
+
+* **darkmode:** add useDarkMode hook with tests ([#251](https://github.com/JamesSingleton/hooks-arsenal/issues/251)) ([1916b03](https://github.com/JamesSingleton/hooks-arsenal/commit/1916b035f2012e7d39ff0a0547b9bb7e8c2abfae))
+
 # [1.5.0](https://github.com/JamesSingleton/hooks-arsenal/compare/v1.4.2...v1.5.0) (2020-05-20)
 
 
