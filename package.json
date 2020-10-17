@@ -10,7 +10,8 @@
     "lint": "eslint src",
     "prepack": "npm run lint && npm run build",
     "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "posttest": "eslint src/** && eslint __tests__/**"
   },
   "repository": {
     "type": "git",

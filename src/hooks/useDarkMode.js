@@ -2,13 +2,11 @@ import { useEffect } from 'react';
 
 import useLocalStorage from './useLocalStorage';
 
-const useDarkMode = (defaultValue = false, darkModeClassName = 'dark-mode') => {
+const useDarkMode = (defaultValue = undefined, darkModeClassName = 'dark-mode') => {
   const [darkModeState, setDarkModeState] = useLocalStorage('dark-mode-active', defaultValue);
-
   const prefersDarkMode = window.matchMedia
-    ? window.matchMedia('(prefers-color-scheme: dark)')
+    ? window.matchMedia('(prefers-color-scheme: dark)').matches
     : false;
-
   const darkModeActive = typeof darkModeState !== 'undefined' ? darkModeState : prefersDarkMode;
 
   useEffect(() => {
@@ -18,7 +16,7 @@ const useDarkMode = (defaultValue = false, darkModeClassName = 'dark-mode') => {
     } else {
       element.classList.remove(darkModeClassName);
     }
-  }, [darkModeActive]);
+  }, [darkModeActive, darkModeClassName]);
 
   return [darkModeState, setDarkModeState];
 };
