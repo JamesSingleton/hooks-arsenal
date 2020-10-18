@@ -13,7 +13,6 @@ describe('useFormSubmissionHandling', () => {
   const submitFunctionMock = jest.fn();
   const mockEvent = simulateEvent();
   const mockFormValue = { greeting: 'hello!' };
-  const prehookValue = 'preSubmithook Value!';
 
   beforeEach(() => submitFunctionMock.mockReset());
 
@@ -67,10 +66,8 @@ describe('useFormSubmissionHandling', () => {
   it('updates the error state correctly', async () => {
     expect.assertions(2);
     const errorMock = jest.fn(() => Promise.reject(new Error('error time')));
-    const preSubmitHook = jest.fn(() => prehookValue);
     const { result, waitForNextUpdate } = renderHook(() => useFormSubmissionHandling({
       submitFunction: errorMock,
-      preSubmitHook,
     }));
     act(() => {
       result.current.handleSubmit(mockEvent);

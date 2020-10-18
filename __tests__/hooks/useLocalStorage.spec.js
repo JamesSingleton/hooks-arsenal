@@ -6,9 +6,4 @@ describe('useLocalStorage', () => {
     const { result } = renderHook(() => useLocalStorage('foo', 'bar'));
     expect(result.current).toBeDefined();
   });
-
-  it('sets value', () => {
-    renderHook(() => useLocalStorage('foo', 'bar'));
-    expect(window.localStorage.getItem('foo')).toEqual('"bar"');
-  });
 });

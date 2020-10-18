@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBoundary calls the render function if provided 1`] = `
+<div>
+  I will render instead of the children
+</div>
+`;
+
+exports[`ErrorBoundary renders its children 1`] = `
+<div>
+  I am a child that should render.
+</div>
+`;
+
+exports[`ErrorBoundary should render the fallback render if provided and an error occurs 1`] = `
+<div>
+  I am a fallback render
+</div>
+`;
