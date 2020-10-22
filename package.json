@@ -50,7 +50,7 @@
     "eslint-config-amex": "13.1.0",
     "eslint-plugin-jest": "24.1.0",
     "husky": "4.3.0",
-    "jest": "26.5.3",
+    "jest": "26.6.0",
     "lint-staged": "10.4.2",
     "react": "16.14.0",
     "react-dom": "16.14.0",
