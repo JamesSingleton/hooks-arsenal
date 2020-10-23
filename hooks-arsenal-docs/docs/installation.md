@@ -5,13 +5,13 @@ title: Installation
 
 You can install Hooks Arsenal with [NPM](https://npmjs.com), or [Yarn](https://yarnpkg.com).
 
-### NPM
+## NPM
 
 ```bash
 npm i hooks-arsenal
 ```
 
-### Yarn
+## Yarn
 
 ```bash
 yarn add hooks-arsenal
