@@ -33,7 +33,7 @@
   "bugs": {
     "url": "https://github.com/JamesSingleton/hooks-arsenal/issues"
   },
-  "homepage": "https://github.com/JamesSingleton/hooks-arsenal#readme",
+  "homepage": "https://hooks-arsenal.vercel.app/",
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
