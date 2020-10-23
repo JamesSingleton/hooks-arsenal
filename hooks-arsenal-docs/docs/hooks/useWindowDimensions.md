@@ -1,0 +1,4 @@
+---
+id: useWindowDimensions
+title: useWindowDimensions
+---

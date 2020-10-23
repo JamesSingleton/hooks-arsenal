@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Hooks Arsenal',
   tagline: 'An arsenal of React Hooks... aka, a React Hooks library',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://hooks-arsenal.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -16,7 +16,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/overview',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -36,12 +36,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Getting Started',
+              to: 'docs/overview',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Hooks',
+              to: 'docs/hooks/useDarkMode',
             },
           ],
         },
@@ -79,7 +79,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/JamesSingleton/hooks-arsenal/edit/main/hooks-arsenal-docs/',
         },
         blog: {
           showReadingTime: true,
