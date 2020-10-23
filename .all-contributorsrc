@@ -33,11 +33,23 @@
         "code",
         "test"
       ]
+    },
+    {
+      "login": "LoganArnett",
+      "name": "Logan Arnett",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8780547?v=4",
+      "profile": "https://loganarnett.com/",
+      "contributions": [
+        "doc",
+        "code",
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "projectName": "hooks-arsenal",
   "projectOwner": "JamesSingleton",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
