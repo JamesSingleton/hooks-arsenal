@@ -2,14 +2,14 @@
 
 [![CircleCI](https://img.shields.io/circleci/build/github/JamesSingleton/hooks-arsenal/master?style=flat-square)](https://circleci.com/gh/JamesSingleton/hooks-arsenal)
 [![npm](https://img.shields.io/npm/v/hooks-arsenal?style=flat-square)](https://www.npmjs.com/package/hooks-arsenal)
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 [![GitHub issues](https://img.shields.io/github/issues/JamesSingleton/hooks-arsenal?style=flat-square)](https://github.com/JamesSingleton/hooks-arsenal/issues)
 [![GitHub license](https://img.shields.io/github/license/JamesSingleton/hooks-arsenal?style=flat-square)](https://github.com/JamesSingleton/hooks-arsenal/blob/master/LICENSE)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/hooks-arsenal?style=flat-square)
 
 > An arsenal of React Hooks... aka, a React Hooks library
 
-### 🏠 [Homepage](https://github.com/JamesSingleton/hooks-arsenal#readme)
+### 🏠 [Homepage](https://hooks-arsenal.vercel.app/)
 
 ## Install
 
@@ -49,7 +49,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/JamesSingleton"><img src="https://avatars2.githubusercontent.com/u/21000200?v=4" width="100px;" alt=""/><br /><sub><b>James Singleton</b></sub></a><br /><a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=JamesSingleton" title="Code">💻</a> <a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=JamesSingleton" title="Tests">⚠️</a> <a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=JamesSingleton" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Francois-Esquire"><img src="https://avatars1.githubusercontent.com/u/12474067?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Mike Tobia</b></sub></a><br /><a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=Francois-Esquire" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/heythisispaul"><img src="https://avatars3.githubusercontent.com/u/25091801?v=4" width="100px;" alt=""/><br /><sub><b>Paul Richard</b></sub></a><br /><a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=heythisispaul" title="Code">💻</a> <a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=heythisispaul" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://loganarnett.com/"><img src="https://avatars2.githubusercontent.com/u/8780547?v=4" width="100px;" alt=""/><br /><sub><b>Logan Arnett</b></sub></a><br /><a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=LoganArnett" title="Documentation">📖</a> <a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=LoganArnett" title="Code">💻</a> <a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=LoganArnett" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://loganarnett.com/"><img src="https://avatars2.githubusercontent.com/u/8780547?v=4" width="100px;" alt=""/><br /><sub><b>Logan Arnett</b></sub></a><br /><a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=LoganArnett" title="Code">💻</a> <a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=LoganArnett" title="Tests">⚠️</a><a href="https://github.com/JamesSingleton/hooks-arsenal/commits?author=LoganArnett" title="Documentation">📖</a></td>
   </tr>
 </table>
 
