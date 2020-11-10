@@ -46,7 +46,7 @@
     "@testing-library/react-hooks": "3.4.2",
     "amex-jest-preset-react": "6.1.0",
     "babel-preset-amex": "3.4.1",
-    "eslint": "7.12.1",
+    "eslint": "7.13.0",
     "eslint-config-amex": "13.1.0",
     "eslint-plugin-jest": "24.1.0",
     "husky": "4.3.0",
