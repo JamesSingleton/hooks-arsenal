@@ -4,8 +4,8 @@ import ErrorBoundary from '../../src/components/ErrorBoundary';
 
 describe('ErrorBoundary', () => {
   const handleError = jest.fn();
-  const ErrorThrower = ({ errrorMessage = 'uh oh' }) => {
-    throw new Error(errrorMessage);
+  const ErrorThrower = ({ errorMessage = 'uh oh' }) => {
+    throw new Error(errorMessage);
   };
 
   beforeEach(() => {

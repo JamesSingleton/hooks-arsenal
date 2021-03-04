@@ -35,10 +35,7 @@ class ErrorBoundary extends PureComponent {
 
 ErrorBoundary.propTypes = {
   handleError: PropTypes.func.isRequired,
-  children: PropTypes.oneOfType([
-    PropTypes.arrayOf(PropTypes.node),
-    PropTypes.node,
-  ]),
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
   render: PropTypes.func,
   renderErrorText: PropTypes.func,
 };

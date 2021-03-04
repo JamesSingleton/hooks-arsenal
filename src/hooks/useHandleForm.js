@@ -8,9 +8,7 @@ const useFormSubmission = ({ submitFunction, initialValue = {} } = {}) => {
 
   const handleUpdate = useCallback(
     (event) => {
-      const {
-        name, value, checked, type,
-      } = event.target;
+      const { name, value, checked, type } = event.target;
       const isCheckbox = type === 'checkbox';
       const newFormData = {
         ...formValues,

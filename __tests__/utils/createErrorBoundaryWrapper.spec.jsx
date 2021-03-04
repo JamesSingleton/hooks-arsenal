@@ -12,7 +12,11 @@ describe('createErrorBoundaryWrapper', () => {
   it('is given the errorHandler as a prop', () => {
     const ErrorBoundaryInstance = createErrorBoundaryWrapper({ handleError });
     const testRender = create(<ErrorBoundaryInstance />);
-    const { rendered: { props: { handleError: handleErrorFromProps } } } = testRender.toTree();
+    const {
+      rendered: {
+        props: { handleError: handleErrorFromProps },
+      },
+    } = testRender.toTree();
     expect(handleErrorFromProps).toEqual(handleError);
   });
 });

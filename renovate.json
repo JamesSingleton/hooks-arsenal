@@ -13,8 +13,10 @@
   "semanticCommitScope": "deps",
   "stabilityDays": 3,
   "prCreation": "not-pending",
-  "packageRules": [{
-    "packagePatterns": "^eslint",
-    "groupName": "eslint"
-  }]
+  "packageRules": [
+    {
+      "packagePatterns": "^eslint",
+      "groupName": "eslint"
+    }
+  ]
 }
