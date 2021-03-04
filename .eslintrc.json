@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "amex",
-    "plugin:jest/recommended"
-  ],
+  "extends": ["amex/prettier", "plugin:jest/recommended"],
   "rules": {
     "jsx-a11y/label-has-associated-control": [
       "error",

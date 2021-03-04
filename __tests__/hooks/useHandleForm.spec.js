@@ -5,7 +5,10 @@ import useFormSubmissionHandling from '../../src/hooks/useHandleForm';
 const simulateEvent = (name, value, type, checked) => ({
   preventDefault: jest.fn(),
   target: {
-    value, type, name, checked,
+    value,
+    type,
+    name,
+    checked,
   },
 });
 
@@ -32,10 +35,12 @@ describe('useFormSubmissionHandling', () => {
 
   it('calls the provided function when the form is submitted with the form values', async () => {
     expect.assertions(2);
-    const { result, waitForNextUpdate } = renderHook(() => useFormSubmissionHandling({
-      submitFunction: submitFunctionMock,
-      initialValue: mockFormValue,
-    }));
+    const { result, waitForNextUpdate } = renderHook(() =>
+      useFormSubmissionHandling({
+        submitFunction: submitFunctionMock,
+        initialValue: mockFormValue,
+      })
+    );
     const { handleSubmit } = result.current;
     act(() => {
       handleSubmit(mockEvent);
@@ -47,10 +52,12 @@ describe('useFormSubmissionHandling', () => {
 
   it('updates the state on submit correctly', async () => {
     expect.assertions(4);
-    const { result, waitForNextUpdate } = renderHook(() => useFormSubmissionHandling({
-      submitFunction: submitFunctionMock,
-      initialValue: mockFormValue,
-    }));
+    const { result, waitForNextUpdate } = renderHook(() =>
+      useFormSubmissionHandling({
+        submitFunction: submitFunctionMock,
+        initialValue: mockFormValue,
+      })
+    );
     const { handleSubmit } = result.current;
     act(() => {
       handleSubmit(mockEvent);
@@ -66,9 +73,11 @@ describe('useFormSubmissionHandling', () => {
   it('updates the error state correctly', async () => {
     expect.assertions(2);
     const errorMock = jest.fn(() => Promise.reject(new Error('error time')));
-    const { result, waitForNextUpdate } = renderHook(() => useFormSubmissionHandling({
-      submitFunction: errorMock,
-    }));
+    const { result, waitForNextUpdate } = renderHook(() =>
+      useFormSubmissionHandling({
+        submitFunction: errorMock,
+      })
+    );
     act(() => {
       result.current.handleSubmit(mockEvent);
     });
