@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:16.5.0
+      - image: circleci/node:16.6.0
     working_directory: ~/repo
     steps:
       - checkout
@@ -24,7 +24,7 @@ jobs:
           paths: .
   release:
     docker:
-      - image: circleci/node:16.5.0
+      - image: circleci/node:16.6.0
     steps:
       - checkout
       - run: npm install
