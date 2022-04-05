@@ -49,7 +49,7 @@
     "@testing-library/react": "12.1.2",
     "@testing-library/react-hooks": "7.0.2",
     "amex-jest-preset-react": "6.1.2",
-    "babel-preset-amex": "3.5.1",
+    "babel-preset-amex": "3.6.1",
     "enzyme-to-json": "3.6.2",
     "eslint": "7.32.0",
     "eslint-config-amex": "14.2.1",
