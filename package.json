@@ -46,7 +46,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "8.0.3",
     "@semantic-release/release-notes-generator": "10.0.3",
-    "@testing-library/react": "12.1.2",
+    "@testing-library/react": "12.1.4",
     "@testing-library/react-hooks": "7.0.2",
     "amex-jest-preset-react": "6.1.2",
     "babel-preset-amex": "3.5.1",
